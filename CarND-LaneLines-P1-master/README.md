@@ -16,7 +16,9 @@ the pipeline are:
 ## Final result
 - the lane line (white/yellow) can be successed idetificated, and from image into a video as output
 - right and left lane line can be successed identificated, and final annotations of video have the segmented and solid laneline in it
-[image1]: ./solidWhiteCurve_img_output.jpg 
+![image](https://github.com/Genzaiwuxian/term1-p1/blob/master/CarND-LaneLines-P1-master/solidWhiteCurve_img_output.jpg)
+![image](https://github.com/Genzaiwuxian/term1-p1/blob/master/CarND-LaneLines-P1-master/solidWhiteRight_img_output.jpg)
+![image](https://github.com/Genzaiwuxian/term1-p1/blob/master/CarND-LaneLines-P1-master/solidYellowCurve_img_output.jpg)
 
 
 ## Reflection
