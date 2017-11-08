@@ -23,25 +23,26 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+the pipeline are:
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
-
+- read image from floder
+- change RGB image into gray_scale image
+- do the gaussion_blur, and delete the noise
+- find the Region of Interest, and do the houghline plot
+- weighted the recongized red lane line with initial image
+- import moviepy function,etc
+- process the image into movie
+- save the movie and show in HTML
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+- some small or can be called as noise white/yellow point is identified as lane line, next it's better to tuning the parameters (like threthold , minimum/maximum_line_len)
+- moviepy model import error, finally i add the sys path and absolute path into pipeline to solve this problem, maybe it's version problem, try install function/model based on one environment, like anaconda.
+- optional challanges missed casued of time, try again after finished P5 Term1.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+- during my work with challange, many another lines(no the lane line) is detected. 
+- 1st i can make some code to filler the small lines
+- but i can't think other countermeasures to solve this questions based on the method in this lesson, maybe the Deep learning of CNN some else can solve this questions.
