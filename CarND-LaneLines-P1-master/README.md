@@ -16,6 +16,8 @@ the pipeline are:
 ## Final result
 - the lane line (white/yellow) can be successed idetificated, and from image into a video as output
 - right and left lane line can be successed identificated, and final annotations of video have the segmented and solid laneline in it
+[image1]: ./solidWhiteCurve_img_output.jpg 
+
 
 ## Reflection
   - some small or can be called as noise white/yellow point is identified as lane line, next it's better to tuning the parameters (like threthold , minimum/maximum_line_len)
